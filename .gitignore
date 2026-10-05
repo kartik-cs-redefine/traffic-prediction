@@ -1,0 +1,22 @@
+# Environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+
+# Large / generated files
+*.mp4
+*.avi
+videos/
+out/
+models/
+*.pt
+*.pkl
+data/raw/*
+!data/raw/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
